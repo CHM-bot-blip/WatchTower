@@ -12,7 +12,8 @@ WORKDIR /app/frontend
 RUN bun install
 
 COPY ./frontend /app/frontend
-ARG VITE_API_URL
+ARG VITE_API_URL=http://192.168.40.100:8000
+ENV VITE_API_URL=${VITE_API_URL}
 
 RUN bun run build
 

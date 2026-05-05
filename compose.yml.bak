@@ -74,9 +74,6 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - BOT_TOKEN=${BOT_TOKEN}
       - ADMIN_CHAT_ID=${ADMIN_CHAT_ID}
-      - PFSENSE_SSH_HOST=192.168.1.1
-      - PFSENSE_SSH_USER=root
-      - PFSENSE_SSH_KEY=/app/ssh/watchtower-ansible
         #- PIHOLE_URL=http://192.168.50.100
         #- PIHOLE_PASSWORD=your_pihole_web_password
         #- PFSENSE_URL=http://192.168.1.1

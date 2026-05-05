@@ -1,7 +1,8 @@
-.vscode/*
-!.vscode/extensions.json
+*.env
+*.key
+*.pem
+secrets/
+__pycache__/
+*.pyc
+.DS_Store
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
