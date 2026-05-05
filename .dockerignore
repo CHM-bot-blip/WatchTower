@@ -1,0 +1,16 @@
+.git
+.vscode
+.env
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.venv
+**/node_modules
+**/dist
+**/htmlcov
+frontend/.tanstack
+frontend/blob-report
+frontend/test-results
+backend/htmlcov
